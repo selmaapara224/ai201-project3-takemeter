@@ -10,3 +10,6 @@ Per-class metrics (baseline):
   accuracy                             0.86      21
    macro avg       0.88      0.86      0.86      21
 weighted avg       0.89      0.86      0.86      21
+
+
+<img width="509" height="490" alt="Confusion Matrix Project 3" src="https://github.com/user-attachments/assets/ca32ee7b-bbf0-4b62-8980-2304dc2515a7" />
