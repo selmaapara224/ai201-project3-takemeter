@@ -26,7 +26,7 @@ I will collect data from my own text messages. There is a possibility for there 
 
 | Model | Accuracy | Macro F1 | Test examples |
 |---|---|---|---|
-| Baseline | 0.810 | 0.81 | 21 (21/21 parseable) |
+| Baseline (openai/gpt-oss-120b)| 0.810 | 0.81 | 21 (21/21 parseable) |
 | Fine-tuned (DistilBERT) | 0.524 | 0.34 | 21 |
 
 **Fine-tuning regression: 0.286**
