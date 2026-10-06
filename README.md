@@ -136,3 +136,6 @@ I also used it to analyze why my two runs differed so much. When I gave Claude m
 
 I deviated from my spec when it came to the filler texts from millennials. I ended up having enough "oldhead" texts to pull from. I also did not need to ask Claude to calculate my metrics, because that was already built into the given code. My spec was still helpful, because I had an idea of what to look for in my evaluation, even though the majority was provided in the starter.
 
+## Demo Video
+
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/8c53e11f224b4dd4964239435302b438" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
