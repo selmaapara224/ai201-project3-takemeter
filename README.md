@@ -20,6 +20,28 @@
 
 I will collect data from my own text messages. There is a possibility for there to be more texts from the Youngin category, since younger people tend to communicate via text more than older people. 
 
+### System Prompt for Baseline:
+SYSTEM_PROMPT = """
+You are classifying text messages from my freinds and family.
+Assign each text message to exactly one of the following categories.
+
+youngin: A text from one of my peers. My friends, close-in age cousins, classmates, etc. You can tell by the grammar they use as well, how many abbreviations are in the text, the subject matter, and in what context different emojis are used.
+Example: "i like dat"
+
+oldhead: A text from an older person. My mom, aunts and uncles, teachers, older mentors etc. You can normally tell by the grammar they use, what type of (if any) emojis, and the subject matter.
+Example: "Hi Selma, thank you my precious niece. 🤗😘♥️"
+
+
+Respond with ONLY the label name.
+Do not explain your reasoning.
+
+Valid labels:
+youngin
+oldhead
+"""
+
+
+
 ## Results
 
 ### Overall
@@ -109,4 +131,8 @@ I also used it to analyze why my two runs differed so much. When I gave Claude m
   Small test sets amplify it. On 21 examples you can't tell a mediocre model from a lucky one.
   Restarting the session resets everything. Seeds, the random head initialization, and possibly the train/test split all change unless you fixed   them explicitly. If the split is random and unseeded, the second run may also have trained on a different set of texts.
 
+
+## Spec reflection:
+
+I deviated from my spec when it came to the filler texts from millennials. I ended up having enough "oldhead" texts to pull from. I also did not need to ask Claude to calculate my metrics, because that was already built into the given code. My spec was still helpful, because I had an idea of what to look for in my evaluation, even though the majority was provided in the starter.
 
