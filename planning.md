@@ -1,23 +1,27 @@
-***Community: I chose my friends, family, and extended community as the community. This is a good fit for the classification task because there is a nuanced but still obvious difference in the way different types of people communicate with me via text. 
+**Community:** I chose my friends, family, and extended community as the community. This is a good fit for the classification task because there is a nuanced but still obvious difference in the way different types of people communicate with me via text.
 
+ ### Labels:
 
-***Labels: 
-  - OldHead: A text from an older person. My mom, aunts and uncles, teachers, older mentors etc. You can normally tell by the grammar they use, what type of (if any) emojis, and the subject matter.
-      - Example 1: Hi Selma, thank you my precious niece. 🤗😘♥️
-      - Example 2: Yes, it is. You can delete it from your phone 
-  - Youngin: A text from one of my peers. My friends, close-in age cousins, classmates, etc. You can tell by the grammar they use as well, how many abbreviations are in the text, the subject matter, and in what context different emojis are used.
-      - Example 1: i like dat
-      - Example 2: u right 
+**OldHead:** A text from an older person. My mom, aunts and uncles, teachers, older mentors etc. You can normally tell by the grammar they use, what type of (if any) emojis, and the subject matter.
 
-      
-***Hard edge cases: 
+  Example 1: Hi Selma, thank you my precious niece. 🤗😘♥️
+  
+  Example 2: Yes, it is. You can delete it from your phone
+  
+**Youngin:** A text from one of my peers. My friends, close-in age cousins, classmates, etc. You can tell by the grammar they use as well, how many abbreviations are in the text, the subject matter, and in what context different emojis are used.
+ 
+  Example 1: i like dat
+  
+  Example 2: u right
+
+**Hard edge cases:** 
   - Messages from millinneals (those in the middle of the two labels) are extremely nuanced and can sometimes different messages from the same millinneal can fit into different categories. I will use messages from millinneals to further define the two categories. Though a message may be from a middle-range-aged person, it may have the vibe of one of the two categories and help deepen the understanding of that category.
   - Shorter text messages can cause confusion. The key marker in the difference will be the use (or lack there of) of punctuation. 
 
 
-***Data collection plan: I will collect data from my own text messages. There is a possibility for there to be more texts from the Youngin category, since younger people tend to communicate via text more than older people. I will remedy this with the millinaeal filler texts.
+**Data collection plan:** I will collect data from my own text messages. There is a possibility for there to be more texts from the Youngin category, since younger people tend to communicate via text more than older people. I will remedy this with the millinaeal filler texts.
 
-***Evaluation metrics: The metrics I will use are: 
+**Evaluation metrics:** The metrics I will use are: 
         -  Per-class precision, recall, and F1:
             - This will show if the model  tends to get one label correct more often than the other.
         -  Macro-F1:
@@ -26,10 +30,10 @@
             - This will show which directions the errors trend: False OldHead or False Youngin 
 
             
-***Definition of success: This classification is not very useful outside of the scope of the project, since most people will see the contact name when receiving a text, therefore knowing the classification already themselves. It is more fun and experimental, and the type of project that first drew me to computer science when I was younger, before college. However, if someone were to have lost all their contacts and needed to figure out who a text was from without asking the person (due to embarrassment, not wanting to offend the person, etc), the classification could help narrow down the list of people the text could be from. Success in the context of the project would be if the model yields around 85% accuracy for each metric, and if the confusion matrix tends towards False OldHead, which is what I suspect to happen.
+**Definition of success:** This classification is not very useful outside of the scope of the project, since most people will see the contact name when receiving a text, therefore knowing the classification already themselves. It is more fun and experimental, and the type of project that first drew me to computer science when I was younger, before college. However, if someone were to have lost all their contacts and needed to figure out who a text was from without asking the person (due to embarrassment, not wanting to offend the person, etc), the classification could help narrow down the list of people the text could be from. Success in the context of the project would be if the model yields around 85% accuracy for each metric, and if the confusion matrix tends towards False OldHead, which is what I suspect to happen.
 
 
-***AI Tool Plan: 
+**AI Tool Plan:** 
   - Support With Understanding: Some of the Machine Learning concepts take a bit longer for me to grasp, so I will use Claude to assist in gaining a deeper understanding of these concepts. Gaining a deeper understanding of these concepts will also support me in planning (for example with the evaluation metrics).
   - Label Stress Testing: I gave Claude my label definitions and examples, as well as my edge case explanations, and asked it to generate 5 edge case examples.
     - Output from Claude:
