@@ -7,11 +7,13 @@
 OldHead: A text from an older person. My mom, aunts and uncles, teachers, older mentors etc. You can normally tell by the grammar they use, what type of (if any) emojis, and the subject matter.
 
   Example 1: Hi Selma, thank you my precious niece. 🤗😘♥️
+  
   Example 2: Yes, it is. You can delete it from your phone
   
 Youngin: A text from one of my peers. My friends, close-in age cousins, classmates, etc. You can tell by the grammar they use as well, how many abbreviations are in the text, the subject matter, and in what context different emojis are used.
  
   Example 1: i like dat
+  
   Example 2: u right
 
 **Data collection:**
