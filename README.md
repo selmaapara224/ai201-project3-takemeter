@@ -1,22 +1,22 @@
-## Takemeter
+# Takemeter
 
 **Community:** I chose my friends, family, and extended community as the community. This is a good fit for the classification task because there is a nuanced but still obvious difference in the way different types of people communicate with me via text.
 
- # Labels:
+ ### Labels:
 
-OldHead: A text from an older person. My mom, aunts and uncles, teachers, older mentors etc. You can normally tell by the grammar they use, what type of (if any) emojis, and the subject matter.
+**OldHead:** A text from an older person. My mom, aunts and uncles, teachers, older mentors etc. You can normally tell by the grammar they use, what type of (if any) emojis, and the subject matter.
 
   Example 1: Hi Selma, thank you my precious niece. 🤗😘♥️
   
   Example 2: Yes, it is. You can delete it from your phone
   
-Youngin: A text from one of my peers. My friends, close-in age cousins, classmates, etc. You can tell by the grammar they use as well, how many abbreviations are in the text, the subject matter, and in what context different emojis are used.
+**Youngin:** A text from one of my peers. My friends, close-in age cousins, classmates, etc. You can tell by the grammar they use as well, how many abbreviations are in the text, the subject matter, and in what context different emojis are used.
  
   Example 1: i like dat
   
   Example 2: u right
 
-**Data collection:**
+### Data collection:
 
 I will collect data from my own text messages. There is a possibility for there to be more texts from the Youngin category, since younger people tend to communicate via text more than older people. 
 
