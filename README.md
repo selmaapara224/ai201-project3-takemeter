@@ -29,6 +29,8 @@ I will collect data from my own text messages. There is a possibility for there 
 | Baseline | 0.810 | 0.81 | 21 (21/21 parseable) |
 | Fine-tuned (DistilBERT) | 0.524 | 0.34 | 21 |
 
+**Fine-tuning regression: 0.286**
+
 ### Per-class metrics: Baseline
 
 | Class | Precision | Recall | F1 | Support |
@@ -91,16 +93,6 @@ The predictions were near perfect on the first run. I had to restart the session
 <img width="509" height="490" alt="Confusion Matrix Project 3" src="https://github.com/user-attachments/assets/ca32ee7b-bbf0-4b62-8980-2304dc2515a7" />
 
 
-==================================================
-RESULTS COMPARISON
-==================================================
-Model                               Accuracy
----------------------------------------------
-Zero-shot baseline (Groq)              0.810
-Fine-tuned DistilBERT                  0.524
----------------------------------------------
-
-Fine-tuning regression: 0.286
 
 
 ## AI Usage:
